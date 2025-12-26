@@ -7,13 +7,14 @@ img1.addEventListener("click", () => {
     const isPassword = box1.type === 'password';
     box1.type = isPassword ? 'text' : 'password';
 
-    img1.src = isPassword ? 'visibility-on.png': 'images/visibility-off.png'
+    img1.src = isPassword ? 'visibility-on.png': 'visibility-off.png'
 })
 
 img2.addEventListener("click", () => {
     const isPassword = box2.type === 'password';
     box2.type = isPassword ? 'text' : 'password';
 
-    img2.src = isPassword ? 'visibility-on.png': 'images/visibility-off.png'
+    img2.src = isPassword ? 'visibility-on.png': 'visibility-off.png'
 
 })
+
