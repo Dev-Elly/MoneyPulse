@@ -1,0 +1,123 @@
+body{
+    padding: 0;
+    margin: 0;
+    /*background-color: #16A34A;*/
+    /*background-image: url(/frontend/images/green.jpeg);*/
+    background-color: rgb(15 23 42);
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+
+.signup-container {
+    background-color: rgba(72, 72, 72, 0.592);
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.signup-container h2 {
+    margin-bottom: 20px;
+    color: #16A34A;
+    font-size: 30px;
+}
+
+.signup-container input, 
+.signup-container select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup-container .signup-btn {
+    background-color: #16A34A;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 90%;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.create-account{
+    padding: 10px;
+    border: 2px solid #16A34A;
+    width: 90%;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.create{
+    text-decoration: none;
+    color: #16A34A;
+    font-weight: bold;
+}
+
+.toggle-password2{
+    filter: brightness(0%) contrast(100%);
+    width: 17px;
+    position: relative;
+    right: -354px;
+    top: -62px;
+    cursor: pointer;
+}
+
+.toggle-password1{
+    filter: brightness(0%) contrast(100%);
+    width: 17px;
+    position: relative;
+    right: -163px;
+    top: -27px;
+    cursor: pointer;
+}
+
+.main-head{
+    text-align: center;
+    color: white;
+    margin: 0px 0px 10px 0px;
+}
+
+.money-cont{
+    display: flex;
+    height: 90px;
+    justify-content: center;
+    align-items: last baseline;
+}
+
+.money-cont #moneyCont .money{
+    width: 60px;
+}
+
+.about-bulb{
+    height: 50px;
+    filter: brightness(0%) contrast(100%);
+
+}
+
+.the-p-tag{
+    color: white;
+    font-weight: bold;
+}
+
+input{
+    font-weight: bold;
+}
+
+#password1{
+    margin-bottom: 0px;
+}
+
+#password2{
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
