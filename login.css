@@ -6,12 +6,14 @@ body{
     background-color: rgb(15 23 42);
     height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
 }
 
-.main-container{
+/*.main-container{
     display: flex;
     justify-content: center;
-}
+}*/
 
 .login-container {
     background-color: rgba(72, 72, 72, 0.592);
@@ -107,4 +109,13 @@ input{
 
 #password{
     margin-bottom: 20px;
+
+}
+
+footer{
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 41%;
 }
