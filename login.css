@@ -119,3 +119,11 @@ footer{
 
 }
 
+label{
+    color: white;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    margin-left: 20px;
+    bottom: 5px;
+}
