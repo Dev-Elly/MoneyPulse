@@ -88,6 +88,7 @@ body{
 
 .money-cont #moneyCont .money{
     width: 60px;
+    filter: brightness(100%) contrast(0%);
 }
 
 /*.about-bulb{
@@ -117,3 +118,4 @@ footer{
     right: 41%;
 
 }
+
