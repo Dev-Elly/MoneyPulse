@@ -96,13 +96,13 @@ body{
 
 .money-cont #moneyCont .money{
     width: 60px;
+    filter: brightness(1000%) contrast(0%);
 }
 
-.about-bulb{
+/*.about-bulb{
     height: 50px;
     filter: brightness(0%) contrast(100%);
-
-}
+}*/
 
 .the-p-tag{
     color: white;
@@ -120,4 +120,5 @@ input{
 #password2{
     margin-top: 0px;
     margin-bottom: 30px;
+
 }
