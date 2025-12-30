@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(15 23 42);
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+}
+
+.main-content{
+    display: flex;
+    
+}
+
+.header-container{
+    position: fixed;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: solid rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10);
+    width: 100%;
+    color: white;
+    text-align: center;
+    height: 60px;
+}
+
+.header-container #settingsIcon, #notificationIcon, #profileIcon{
+    filter: brightness(100%) contrast(0%);
+    width: 25px;
+    height: 25px;
+    margin: 20px 10px 10px 10px;
+    float: right;
+    cursor: pointer;
+}
+
+img:hover{
+    transform: translateY(-5px);
+    transition: transform 0.3s;
+}
+
+.header-container h1{
+    padding-top: 6px;
+    font-size: 24px;
+    display: inline-block;
+    margin: 7px 0px 0px 105px;
+}
+
+@media(max-width: 900px) {
+    h1{
+        float: left;
+    }
+}
+
+.head{
+    width: 85%;
+    padding: 20px;
+    border: solid rgba(255, 255, 255, 0.05);
+    background-color: rgb();
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    color: rgb(100, 200, 110);
+}
+
+.welcome-paragraph{
+    display: inline-block;
+}
+
+.heart-rate-img{
+    vertical-align: middle;
+    filter: brightness(100%) contrast(0%);
+}
