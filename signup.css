@@ -122,3 +122,18 @@ input{
     margin-bottom: 30px;
 
 }
+
+label{
+    color: white;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    margin-left: 20px;
+    bottom: 5px;
+}
+
+a{
+    color: #16A34A;
+    text-decoration: none;
+    font-weight: bold;
+}
