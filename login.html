@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MoneyPulse</title>
+  <link rel="stylesheet" href="styles/login.css">
+  
+</head>
+<body>
+  <div class="money-cont">
+    <div id="moneyCont">
+      <img src="images/hand-holding-usd.png" alt="cash" class="money"></div>
+    </div>
+  <h1 class="main-head">MoneyPulse</h1>
+  <div class="main-container">
+  <div class="login-container">
+    <h2>Welcome Back!</h2>
+    <p class="the-p-tag">Login To Continue To Your Dashboard</p>
+
+    <form action="submit">
+      <label for="username">Username:</label>
+      <input type="text" placeholder="Enter your username" required>
+      <label for="password">Password:</label>
+      <input type="password" placeholder="Enter your password" id="password" required>
+      <img src="images/visibility-off.png" id="togglePassword">
+
+      <button type="submit" class="login-btn">Login</button><br><br>
+      <button class="create-account"><a href="signup.html">Create Account</a></button>
+    </form>
+  </div>
+  </div>
+  <script src="scripts/login.js"></script>
+</body>
+</html>
